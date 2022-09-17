@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Restaurant Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="" id="survey-form">
+        <div>
+             <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        </div>
+        <div>
+            <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your Email"  required></label>
+        </div>
+        <div>
+            <label for="age" id="number-label">Age (optional): <input type="number" id="number" min="12" max="120" placeholder="Age" value="age"></label>
+        </div>
+        <div>
+            <label>How often do you eat out or order online?
+                <select name="referrer" id="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">0-5 times a month</option>
+                <option value="4">5-10 times a month</option>
+                <option value="2">10-15 times a month</option>
+                <option value="3">almost daily</option>
+                
+                </select>
+            </label>
+        </div>
+        <div>
+            <p> Food Preference:</p>
+            <label><input type="radio" value="vegetarian" name="food-type" class="inline" /> Vegetarian</label>
+            <label><input type="radio" value="non-vegetarian" name="food-type" class="inline" /> Non-Vegetarian</label>
+            <label><input type="radio" value="both" name="food-type" class="inline" /> Both</label>
+        </div>
+
+        <div id="favFood">
+
+            <p>Our dishes that you liked:</p>
+            <label> 
+                <input value="Pizza" type="checkbox" name="terms" class="input-checkbox"/> Pizza
+            </label>
+            <label> 
+                <input value="Pasta" type="checkbox" name="terms" class="input-checkbox"/> Pasta
+            </label>
+            <label> 
+                <input value="Burger" type="checkbox" name="terms" class="input-checkbox"/> Burger
+            </label>
+            <label> 
+                <input value="Shakes" type="checkbox" name="terms" class="input-checkbox"/> Shakes
+            </label>
+            <label> 
+                <input value="Salads" type="checkbox" name="terms" class="input-checkbox"/> Salads
+            </label>
+            <label> 
+                <input value="Sandwiches" type="checkbox" name="terms" class="input-checkbox"/> Sandwiches
+            </label>
+            <label> 
+                <input value="Desserts" type="checkbox" name="terms" class="input-checkbox"/> Desserts
+            </label>
+        </div>
+        <div>
+            <label>Your feedback for us:
+                <textarea name="additional feedback" rows="3" cols="30" placeholder="I wish you should..."></textarea>
+            </label>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

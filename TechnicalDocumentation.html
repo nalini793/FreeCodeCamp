@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Documentation</title>
+    <link rel="stylesheet" href="technicalDocument.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header id="title">Bootstrap Framework</header>   
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#How_to_use_Bootstrap_in_webpage">How to use Bootstrap in webpage</a></li>
+            <li><a class="nav-link" href="#What_makes_Bootstrap_so_popular?">What makes Bootstrap so popular?</a></li>
+            <li><a class="nav-link" href="#Community_Support">Community Support</a></li>
+            <li><a class="nav-link" href="#Are_there_any_Drawbacks?">Are there any Drawbacks?</a></li>
+            <li><a class="nav-link" href="#Conclusion">Conclusion</a></li>
+        </ul>     
+    </nav>
+    
+   <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p class="para-content">Bootstrap is a huge collection of reusable pieces of code which can be quite handy to the developers. It is a Frontend-Development Framework, written in HTML, CSS, and JavaScript. Bootstrap enables designers and developers to build completely responsive websites quickly. It can be considered the most popular CSS framework for developing responsive and Mobile-First applications. The main features of Bootstrap may be described as follows :</p>
+            <ul class="para-content">
+                <li>Bootstrap is a free front-end framework, with the purpose to make web development faster and easier.</li>
+                <li>It also includes HTML and CSS-based design templates for forms, typography, buttons, navigation, tables, modals, image carousels, and many other components along with other optional JavaScript plugins.</li>
+                <li>Bootstrap also provides the users with the ability to easily create responsive designs.</li>
+                <li>The responsive CSS of Bootstrap also adjusts to phones, tablets, and desktops easily.</li>
+                <li>It is compatible with all modern browsers like Chrome, Firefox, Internet Explorer, Edge, Safari, and Opera.</li>
+            </ul>
+                   </section>
+        <section id="How_to_use_Bootstrap_in_webpage" class="main-section">
+            <header>How to use Bootstrap in webpage</header>
+         
+            <ol class="code-list">
+                <li> <h3>Include Bootstrap from CDN links:</h3>
+                    <p>Copy-paste the stylesheet link into head tag of your html file before all other stylesheets to load our CSS.</p>
+                    <code>
+                        <span><</span>link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"<span>></span>
+                    </code>
+                </li>
+                <li> <h3>Download Bootstrap from getbootstrap.com and use it:</h3>
+                    <ul>
+                        <li><p>Goto www.getbootstrap.com and click Getting Started. Click on the Download Bootstrap button.</p></li>
+                        <li><p>A.zip file would get downloaded. Extract the zip file and go in the distribution folder. It contains two folders named as CSS and JS.</p>
+                        <code>
+                            <span><</span>link rel=”stylesheet” type=”text/css” href=”css/bootstrap.min.css<span>></span><br>
+                            <span><</span>script src=”js/bootstrap.min.js”<span>></span><span><</span>/script<span>></span><br>
+                            <span><</span>script src=”https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js”<span>></span><br>
+                            <span><</span>/script<span>></span>
+                        </code></li>
+                        <li><p>Add the file link to the HTML document and then open the web page using web browsers.</p></li>
+                    </ul>
+                </li>
+            </ol>
+            <p>Examples of including bootstrap classes to your html elements</p>
+            <ul class="btn-style"><h3>Button Styles</h3>
+                <li>
+                    <code>
+                        <span><</span>button type="button" class="btn"<span>></span>Basic<span><</span>/button<span>></span>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        <span><</span>button type="button" class="btn btn-primary"<span>></span>Primary<span><</span>/button<span>></span>
+                    </code>
+                </li>
+                <li>
+                    <code>
+                        <span><</span>button type="button" class="btn btn-success"<span>></span>Success<span><</span>/button<span>></span>
+                    </code>
+                </li>
+
+            </ul>
+        </section>
+        <section id="What_makes_Bootstrap_so_popular?" class="main-section">
+            <header>What makes Bootstrap so popular?</header>
+            <ol class="para-content">
+                <li><h3>Components</h3><br>
+                    <p>Bootstrap provides a whole barrelful of components that can be easily included in our web applications, like :</p>
+                <ul>
+                    <li>Dropdowns</li>
+                    <li>Forms</li>
+                    <li>Navigation Bars</li>
+                    <li>Buttons</li>
+                    <li>Tables</li>
+                    <li>Progress bars</li>
+                    <li>Thumbnails</li>
+                </ul>
+                <p>Therefore, adding eye-catching design elements to our applications is very easy and we can be assured that all of the components will look awesome no matter the screen size or device used to view them. Thus, it provides a lot of ready-made functionalities at the fingertips.</p>
+                </li>
+                <li><h3>Responsive Grid</h3><br>
+                    <p>Bootstrap has its own grid system predefined. We can get straight to filling your containers with the required content.</p>
+                    <p>Users can define certain custom breakpoints for each column, using their extra small, small, medium, large, and extra-large breaks. It also has a default option that can be used in most scenarios. Thus, the responsive grid of this framework makes the life of developers easy.</p>
+
+                </li>
+                <li><h3>Time-Saving</h3><br>
+                    <p>When we are bound to an extremely confined timeline to build a web application or a mobile application, we can easily take advantage of the Bootstrap framework and nail our project effortlessly. It is due to the ready-made blocks which are built ready for us to use them. Evidently, we do not have to start everything from scratch and can modify certain elements to make them unique with the inputs.</p>
+                    <p>When we download and install Bootstrap, it unpacks ready-made themes & templates. We can choose from it or can also choose to include inputs from other sources. But, we must also be aware that there are a lot of people who do the same. Hence, to look unique from the rest of the websites that have the same theme or template, we need to get a little creative and modify certain components such that it defines our website or application uniquely.</p>
+
+                </li>
+                <li><h3>Customizable</h3><br>
+                    <p>Users can always modify the CSS file if they are not satisfied with Bootstrap’s design template. Also, it can be combined with existing designs, and thus, they can complement each other’s functions. It is very much helpful when we want to give our application a unique look but we do not have enough time to learn or code custom CSS from scratch.</p>
+                    <p>By using Bootstrap’s customization page, we can tweak it further to create your own custom theme. We must also identify and remove all the plugins and components that are not required for the web project. Moreover, we also get to have a specific section where we can customize our template by changing the values of the variables.</p>
+
+                </li>
+                <li><h3>Compatibility</h3><br>
+                    <p>The bootstrap framework also comes with compatibility. The Bootstrap development team assures the compatibility of the framework with all modern browsers, versions, and platforms. This framework doesn’t support proxy browsers and older browsers, but that doesn’t affect its display or functionality.</p>
+               </li>
+               <li><h3>Consistency</h3><br>
+                <p>There have been certain inconsistencies prevailing between the Front-end and Backend development teams. The creators of Bootstrap wanted to come up with a solution to establish consistency among these teams. Therefore, they developed this Bootstrap framework that eradicates the use of libraries that differ from developer to developer. So, as a result, no matter who handles the project, the framework establishes consistency throughout the project. Since it is also compatible across multiple browsers, no matter what browser we use for our development purpose, it consistently produces the same output across all browsers.</p>
+           </li>
+  
+            </ol>
+
+        </section>
+        <section id="Community_Support" class="main-section">
+            <header>Community Support</header>
+            <p>Bootstrap provides a lot of resources and materials on its official website and some other websites also offer certain resources that would facilitate the front-end development process. Along with that, the official website also offers incredible documentation which makes creating a website, a lot simpler. Moreover, we can get access to their templates and themes to which we can make required changes.</p>
+            <p>Since the Bootstrap community is huge, if we are stuck with any complex error and we could not figure out why it is happening using Google, we can always post a question where the expert developers having the same issues might help us out.</p>
+
+        </section>
+        <section id="Are_there_any_Drawbacks?" class="main-section">
+            <header>Are there any Drawbacks?</header>
+            <ol>
+                <li>Sometimes, there might be certain requirements of a variety of style overrides or rewriting files that can thus lead to a lot of time spent on designing and coding the website if the design tends to divert from the original design used in Bootstrap.</li>
+                <li>We may have to go the extra mile while creating a design otherwise all the websites will look the same if we don’t do heavy customization.</li>
+                <li>Styles are verbose and can lead to lots of output in HTML which is not needed.</li>
+            </ol>
+
+        </section>
+        <section id="Conclusion" class="main-section">
+            <header>Conclusion</header>
+            <ul>
+                <li>   In this article, we learned that Bootstrap is a powerful CSS framework that has taken over web development, especially the front-end development, and community to the next level.             </li>
+                <li>        We also understood that it enhances the development process by offering resources such as templates and themes, which can be customized according to the project needs.        </li>
+                <li>         Since Bootstrap is an open-source framework, we can modify it without spending anything.       </li>
+            </ul>
+
+        </section>
+   </main>
+</body>
+</html>
